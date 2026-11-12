@@ -73,11 +73,73 @@ main section div{
 }
 
 .img img{
-    width: 60%;
+    width: 100%;
 }
 
 main section p, main section h2{
     padding: 20px, 50px, 0px;
 }
 
+.mainDiv{
+    display: flex;
+}
+
+.mainDiv main{
+    flex: 5;
+}
+
+.mainDiv aside{
+    flex: 1;
+    background-color: rgb(214, 212, 205);
+    padding: 20px 50px;
+}
+
+.mainDiv aside ul{
+    list-style: none;
+}
+
+.mainDiv aside ul li{
+    margin-top: 10px;
+}
+
+.mainDiv aside ul li a{
+    text-decoration: none;
+    color: maroon;
+}
+
 /* End Main Styles */
+
+/* Footer Main Style */
+
+footer{
+    display: flex;
+    background-color: rgb(173, 173, 173);
+    padding: 0 10%;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-top: 20px;
+}
+
+footer ul li a{
+    color: maroon;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: red;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer .mapDiv{
+    padding: 20px;
+}
+
+/* End Footer Style */
